@@ -1,0 +1,16 @@
+Notes
+-Creat filters map that have all the filters used in the curse as a function and a short text to it 
+-Creat functions the load image and all functions that convert the images ex from rgb to gray, and from hige reselution to low
+-creat masks can be in filter
+-calculations on equbments
+
+Read's 
+-look and understand all slides (creat a short note set for eache slide)
+-read all exesises qne write notes to them so you know what eache exisis is aboute to look it up in examen
+-get the results from the exesises
+
+At the end
+-Do examen sets
+
+
+
