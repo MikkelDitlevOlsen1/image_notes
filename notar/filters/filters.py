@@ -20,4 +20,11 @@ def masks(p,img):
 def p(img):
     return img < 150
 
-#masks(p,img)
+#roi mask
+def roi_values(roi_img,dicom):
+    # convert to boolean image
+    img_mask = roi_img > 0
+    roi_values = dicom[img_mask]
+    return img_mask,roi_values
+
+
