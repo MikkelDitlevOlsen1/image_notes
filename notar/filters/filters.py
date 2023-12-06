@@ -15,14 +15,15 @@ def scale(img,minn,maxx):
     io.show()
 
 #creat mask
-def masks(p,img):
+def masks(p,img,plot=False):
     """
     p is a function
     """
     mask = p(img)
-    print(f"mask of p is ")
-    io.imshow(mask)
-    io.show()
+    if plot:
+        print(f"mask of p is ")
+        io.imshow(mask)
+        io.show()
     return mask
 
 
